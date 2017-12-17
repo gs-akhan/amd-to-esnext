@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["latest ", {
+      "es2015": false
+    }]
+  ],
+  "plugins": [
+    "./lib/index.js"
+  ],
+  "ignore" :["./lib/index.js"],
+  "parserOpts": {
+    "parser": "recast"
+  },
+  "generatorOpts": {
+    "generator": "recast"
+  }
+}
